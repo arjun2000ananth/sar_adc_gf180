@@ -558,7 +558,6 @@ C {lab_pin.sym} 640 -370 0 0 {name=p58 sig_type=std_logic lab=vcm
 
 
 }
-C {/media/sf_LNA_chipathon/OCCPSense_Capacitive_Pressure_Sensor/rtl/sar_fsm/sar_fsm_wrapper.sym} 1570 -860 0 0 {name=x5}
 C {lab_pin.sym} 1570 -1180 0 0 {name=p35 sig_type=std_logic lab=vdd
 
 }
@@ -946,3 +945,4 @@ C {lab_pin.sym} 3220 -1520 2 0 {name=p244 sig_type=std_logic lab=vcm}
 C {iopin.sym} 2175 -380 0 0 {name=p8 lab=vdd}
 C {iopin.sym} 2265 -380 0 0 {name=p9 lab=vss}
 C {title.sym} 170 0 0 0 {name=l1 author="Arjun Ananth"}
+C {/media/sf_LNA_chipathon/sar_adc_gf180/src/sar_fsm/sar_fsm_wrapper.sym} 1570 -860 0 0 {name=x26}

@@ -232,3 +232,4 @@ C {ipin.sym} 900 -360 0 0 {name=p12 lab=Vinp}
 C {ipin.sym} 900 -320 0 0 {name=p15 lab=Vbias}
 C {ipin.sym} 900 -280 0 0 {name=p17 lab=Vbias_out}
 C {iopin.sym} 940 -320 0 0 {name=p18 lab=vss}
+C {title.sym} 160 0 0 0 {name=l1 author="Arjun Ananth"}

@@ -134,7 +134,7 @@ lab=RSTN}
 N 1500 -1400 1540 -1400 {
 lab=START}
 N 1500 -1360 1540 -1360 {
-lab=Voutn}
+lab=Voutp}
 N 1940 -1500 1980 -1500 {
 lab=sample}
 N 1940 -1470 1980 -1470 {
@@ -905,7 +905,6 @@ C {lab_pin.sym} 580 -460 0 0 {name=p58 sig_type=std_logic lab=vcm
 
 
 }
-C {/media/sf_LNA_chipathon/OCCPSense_Capacitive_Pressure_Sensor/rtl/sar_fsm/sar_fsm_wrapper.sym} 1740 -1320 0 0 {name=x5}
 C {lab_pin.sym} 1740 -1640 0 0 {name=p35 sig_type=std_logic lab=vdd
 
 }
@@ -1306,3 +1305,4 @@ C {lab_pin.sym} 290 -1030 0 0 {name=p171 sig_type=std_logic lab=vss
 C {lab_pin.sym} 110 -1110 0 0 {name=p168 sig_type=std_logic lab=sample}
 C {lab_pin.sym} 470 -1110 2 0 {name=p169 sig_type=std_logic lab=sampleb}
 C {title.sym} 150 0 0 0 {name=l1 author="Arjun Ananth"}
+C {/media/sf_LNA_chipathon/sar_adc_gf180/src/sar_fsm/sar_fsm_wrapper.sym} 1740 -1320 0 0 {name=x26}
