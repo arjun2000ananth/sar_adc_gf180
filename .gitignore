@@ -1,0 +1,34 @@
+# Root working directories of the verification campaign (kept on disk, not published).
+# The published sources are circuit_files/src/, circuit_files/xschem/ and circuit_files/tb/.
+/src/
+/xschem/
+/tb/
+/sim/
+/run_xschem_gf.sh
+
+# simulation scratch
+__pycache__/
+*.vvp
+*.raw
+sim_build/
+runs/
+
+# local outputs of the scripts in circuit_files/ (build, regression logs, regenerated intermediates)
+/circuit_files/src/sar_split_cal/build/
+/circuit_files/src/sar_split_cal/gate/synth.ys
+/circuit_files/src/sar_split_cal/gate/synth.log
+/circuit_files/src/sar_split_cal/xspice/synth.log
+/circuit_files/src/sar_split_cal/xspice/sar_split_cal_generic.json
+/circuit_files/sim/
+/circuit_files/results/
+
+# local material excluded from the published snapshot (kept on disk)
+/circuit_files/src/sar_split_cal/candidate_r1/
+/circuit_files/src/sar_split_cal/candidate_r2/
+/circuit_files/src/sar_split_cal/cosim/
+/circuit_files/src/sar_split_cal/check_gate1.py
+/circuit_files/src/sar_split_cal/gen_adc_xschem.py
+/circuit_files/src/sar_split_cal/xsch.py
+/circuit_files/src/sar_split_cal/README.md
+/circuit_files/src/sar_fsm/sim_sar
+/circuit_files/xschem/xschemrc
