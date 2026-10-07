@@ -32,3 +32,4 @@ runs/
 /circuit_files/src/sar_split_cal/README.md
 /circuit_files/src/sar_fsm/sim_sar
 /circuit_files/xschem/xschemrc
+/xschem/
