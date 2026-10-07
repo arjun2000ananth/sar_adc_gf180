@@ -6,13 +6,13 @@ The current design, `sar_10_bit_split_cal`, uses a redundant split-capacitor DAC
 
 The original binary-CDAC design, `sar_10_bit`, is kept in the repository as a reference.
 
-**Current stage:** schematic-review snapshot; final pre-layout verification is in progress. This is not a schematic freeze and does not claim layout readiness. Layout has not started. Status, completed evidence and pending campaigns: [`docs/REVIEW_STATUS.md`](docs/REVIEW_STATUS.md).
-
+**Current stage:**  final pre-layout verification is in progress. 
 ## Team
 
 | Name | Role |
 |---|---|
-| Arjun Ananth | Lead designer — design and layout |
+| Arjun Ananth | Lead designer - design and layout |
+| Man Yu | design and layout |
 
 ## Design overview
 
@@ -72,7 +72,6 @@ The final comparison does not switch another capacitor.
 
 Holding `start` high runs conversions continuously at 1 MS/s. The sample-to-output latency is approximately 740 ns.
 
-![Sampling and conversion timing](docs/Timing_Diagram.png)
 
 ### Decoder and calibration
 
@@ -150,63 +149,6 @@ These are the ADC core ports. The final harness pin mapping is separate.
 The raw output is used for calibration and debug. Reset aborts the active conversion and restores the nominal coefficient state.
 
 
-## Verification status
-
-[`docs/REVIEW_STATUS.md`](docs/REVIEW_STATUS.md) lists completed evidence and pending campaigns separately,
-with dates, provenance and source hashes. Still pending at snapshot time:
-- transistor-level static brackets (including shard retries);
-- standard-cell controller PVT runs;
-- dynamic runs with injected noise;
-- the unsharded sharding reference.
-
-The freeze verdict, acceptance matrix and layout handoff will be published as a separate update.
-
 ## Repository structure
+TBD
 
-```text
-circuit_files/                published review tree
-  xschem/                     schematics and symbols (main: sar_10_bit_split_cal.sch; reference: sar_10_bit.sch)
-  tb/                         xschem testbenches
-  src/sar_split_cal/          controller r3: FSM, interval decoder, wrapper RTL; Verilog TBs; synthesis
-                              (run_synth.sh); std-cell netlist and transistor-level subcircuit in gate/;
-                              XSPICE view in xspice/; view generators; RTL regression; closed-loop test
-  src/sar_fsm/                original sar_10_bit controller (reference)
-  src/calibration/split_cal/  split-CDAC charge model, CDAC schematic generator and cross-check
-  layout/                     not started
-  run_xschem_gf.sh            xschem launcher (gf180mcuD)
-docs/                         block/timing diagrams, schematic renders, figures, REVIEW_STATUS.md
-```
-
-The verification framework, simulation scratch and full result sets are kept outside the published tree.
-
-## Dependencies
-
-- GF180MCU PDK `gf180mcuD` at `$PDK_ROOT` (default `$HOME/eda/pdks`): xschem/ngspice setup and the
-  `gf180mcu_fd_sc_mcu7t5v0` standard-cell library (liberty, SPICE, Verilog)
-- xschem 3.4.x, ngspice (42 or later, with XSPICE)
-- Icarus Verilog, Yosys
-- Python 3 with numpy
-
-## Usage
-
-Open the main schematic:
-
-```bash
-cd circuit_files && ./run_xschem_gf.sh xschem/sar_10_bit_split_cal.sch
-```
-
-Controller regressions: RTL, std-cell gate level and generic netlist; unit, reset-abort,
-calibration-interface and closed-loop tests. Outputs go to `circuit_files/src/sar_split_cal/build/`.
-
-```bash
-circuit_files/src/sar_split_cal/run_rtl_tests.sh
-```
-
-Re-synthesise the controller (std-cell netlist and transistor-level SPICE subcircuit):
-
-```bash
-circuit_files/src/sar_split_cal/run_synth.sh
-```
-
-`src/calibration/split_cal/run_split_cal_verification.sh --regen` regenerates the CDAC schematics and
-overwrites manual edits. Do not use `--regen` on the published schematics.
