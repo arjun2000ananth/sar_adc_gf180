@@ -1,0 +1,6 @@
+vss   avg   0.121 mV (v1 0.22)  peak   18.45 mV (v1 33.771)  J/lim avg 0.008 peak 0.99 via 0.322 mA/cut  min cuts 2 single 0
+vdda  avg   0.140 mV (v1 0.244)  peak   14.67 mV (v1 28.195)  J/lim avg 0.008 peak 0.94 via 0.250 mA/cut  min cuts 2 single 0
+vref  avg   0.003 mV (v1 0.005)  peak    9.32 mV (v1 14.769)  J/lim avg 0.000 peak 0.78 via 0.079 mA/cut  min cuts 24 single 0
+vcm   avg   0.002 mV (v1 0.01)  peak    7.47 mV (v1 39.64)  J/lim avg 0.000 peak 0.85 via 0.073 mA/cut  min cuts 2 single 0
+vddd  avg   3.023 mV (v1 4.102)  peak   61.89 mV (v1 83.988)  J/lim avg 0.150 peak 3.07 via 0.215 mA/cut  min cuts 40 single 0
+vssd  avg   2.975 mV (v1 7.642)  peak   60.91 mV (v1 156.471)  J/lim avg 0.150 peak 3.07 via 0.215 mA/cut  min cuts 4 single 0

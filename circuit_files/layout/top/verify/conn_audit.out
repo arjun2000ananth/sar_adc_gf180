@@ -1,0 +1,1 @@
+points 46 all on pin net True | distinct True | multi-port single net {'vdda': True, 'vrefp': True, 'vcm': True, 'vddd': True, 'vss_analog': True, 'vss_digital': True} | RESULT PASS

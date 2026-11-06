@@ -1,0 +1,66 @@
+{
+ "fe_sw": {
+  "geometric": {},
+  "density_chip_level": {
+   "DCF.1b": 1,
+   "PL.8": 1,
+   "M1.4": 1,
+   "M2.4": 1,
+   "M3.4": 1,
+   "M4.4": 1,
+   "M5.4": 1,
+   "MT.3": 1
+  }
+ },
+ "fe_rsw": {
+  "geometric": {},
+  "density_chip_level": {
+   "DCF.1b": 1,
+   "PL.8": 1,
+   "M1.4": 1,
+   "M2.4": 1,
+   "M3.4": 1,
+   "M4.4": 1,
+   "M5.4": 1,
+   "MT.3": 1
+  }
+ },
+ "fe_logic": {
+  "geometric": {},
+  "density_chip_level": {
+   "DCF.1b": 1,
+   "PL.8": 1,
+   "M1.4": 1,
+   "M3.4": 1,
+   "M4.4": 1,
+   "M5.4": 1,
+   "MT.3": 1
+  }
+ },
+ "fe_decap": {
+  "geometric": {},
+  "density_chip_level": {
+   "DCF.1b": 1,
+   "PL.8": 1,
+   "M1.4": 1,
+   "M2.4": 1,
+   "M3.4": 1,
+   "M4.4": 1,
+   "M5.4": 1,
+   "MT.3": 1
+  }
+ },
+ "fe_dload": {
+  "geometric": {},
+  "density_chip_level": {
+   "DCF.1b": 1,
+   "PL.8": 1,
+   "M1.4": 1,
+   "M2.4": 1,
+   "M3.4": 1,
+   "M4.4": 1,
+   "M5.4": 1,
+   "MT.3": 1
+  }
+ }
+}

@@ -1,0 +1,50 @@
+Netgen 1.5.316 compiled on Tue Feb 10 11:09:08 UTC 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file ext/lvs/cdac_r4_lvs.spice for ext/lvs/cdac_r4_lvs.spice cdac_r4
+Call to undefined subcircuit cap_mim_2f0_m4m5_noshield
+Creating placeholder cell definition.
+Reading netlist file ref/cdac_r4_lvs_ref.spice for ref/cdac_r4_lvs_ref.spice cdac_r4
+Call to undefined subcircuit cap_mim_2f0fF
+Creating placeholder cell definition.
+
+Reading setup file /home/arjun/eda/pdks/gf180mcuD/libs.tech/netgen/gf180mcuD_setup.tcl
+
+No property par1 found for device cap_mim_2f0fF
+No property par1 found for device cap_mim_2f0_m4m5_noshield
+Device classes cap_mim_2f0_m4m5_noshield and cap_mim_2f0fF are equivalent.
+Comparison output logged to file verify/lvs.out
+Logging to file "verify/lvs.out" enabled
+Circuit cap_mim_2f0_m4m5_noshield contains no devices.
+
+Contents of circuit 1:  Circuit: 'cdac_r4'
+Circuit cdac_r4 contains 468 device instances.
+  Class: cap_mim_2f0_m4m5_noshield instances: 468
+Circuit contains 31 nets.
+Contents of circuit 2:  Circuit: 'cdac_r4'
+Circuit cdac_r4 contains 29 device instances.
+  Class: cap_mim_2f0fF         instances:  29
+Circuit contains 31 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'cdac_r4'
+Circuit cdac_r4 contains 29 device instances.
+  Class: cap_mim_2f0_m4m5_noshield instances:  29
+Circuit contains 31 nets.
+Contents of circuit 2:  Circuit: 'cdac_r4'
+Circuit cdac_r4 contains 29 device instances.
+  Class: cap_mim_2f0fF         instances:  29
+Circuit contains 31 nets.
+
+Circuit 1 contains 29 devices, Circuit 2 contains 29 devices.
+Circuit 1 contains 31 nets,    Circuit 2 contains 31 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "verify/lvs.out" disabled
+LVS Done.

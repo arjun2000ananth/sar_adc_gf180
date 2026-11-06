@@ -1,0 +1,289 @@
+{
+ "design": "out_v2final",
+ "comp_windows_ns": {
+  "ss": [
+   14.04,
+   5.96
+  ],
+  "tt": [
+   7.57,
+   3.24
+  ],
+  "ff": [
+   5.68,
+   1.95
+  ]
+ },
+ "checks": {
+  "ss_min": {
+   "setup": {
+    "asynchronous": {
+     "wns": 3.42,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 2.26,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.88,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 1.33,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 4.17,
+   "comp_hold": 2.01,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "ss_nom": {
+   "setup": {
+    "asynchronous": {
+     "wns": 3.22,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 1.78,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 1.01,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 1.36,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 4.01,
+   "comp_hold": 1.96,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "ss_max": {
+   "setup": {
+    "asynchronous": {
+     "wns": 2.98,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 1.0,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 1.15,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 1.36,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 3.83,
+   "comp_hold": 1.9,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "tt_min": {
+   "setup": {
+    "asynchronous": {
+     "wns": 4.97,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 6.54,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.7,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.6,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 11.35,
+   "comp_hold": 1.25,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "tt_nom": {
+   "setup": {
+    "asynchronous": {
+     "wns": 4.86,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 6.48,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.76,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.61,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 11.26,
+   "comp_hold": 1.23,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "tt_max": {
+   "setup": {
+    "asynchronous": {
+     "wns": 4.74,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 6.4,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.84,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.61,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 11.17,
+   "comp_hold": 1.2,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "ff_min": {
+   "setup": {
+    "asynchronous": {
+     "wns": 5.66,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 7.11,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.6,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.29,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 13.51,
+   "comp_hold": 0.75,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "ff_nom": {
+   "setup": {
+    "asynchronous": {
+     "wns": 5.59,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 7.1,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.64,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.29,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 13.46,
+   "comp_hold": 0.74,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  },
+  "ff_max": {
+   "setup": {
+    "asynchronous": {
+     "wns": 5.51,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 7.08,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "hold": {
+    "asynchronous": {
+     "wns": 0.69,
+     "endpoints": 500,
+     "violations": 0
+    },
+    "clk": {
+     "wns": 0.29,
+     "endpoints": 514,
+     "violations": 0
+    }
+   },
+   "comp_setup": 13.41,
+   "comp_hold": 0.72,
+   "drv_violations": 0,
+   "recovery_removal_clockgating_mpw_violations": 0
+  }
+ }
+}

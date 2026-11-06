@@ -1,0 +1,123 @@
+
+Circuit 1 cell pfet_03v3 and Circuit 2 cell pfet_03v3 are black boxes.
+Warning: Equate pins:  cell pfet_03v3 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell pfet_03v3 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: pfet_03v3                       |Circuit 2: pfet_03v3                       
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes pfet_03v3 and pfet_03v3 are equivalent.
+
+Circuit 1 cell nfet_03v3 and Circuit 2 cell nfet_03v3 are black boxes.
+Warning: Equate pins:  cell nfet_03v3 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell nfet_03v3 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: nfet_03v3                       |Circuit 2: nfet_03v3                       
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes nfet_03v3 and nfet_03v3 are equivalent.
+Flattening unmatched subcell dac_sw_2to1_tg_y in circuit bpsw_bank (0)(12 instances)
+Flattening unmatched subcell pfet_03v3_XEZNMC in circuit bpsw_bank (0)(24 instances)
+Flattening unmatched subcell nfet_03v3_KP96ZV in circuit bpsw_bank (0)(12 instances)
+Flattening unmatched subcell pfet_03v3_ZE833C in circuit bpsw_bank (0)(12 instances)
+Flattening unmatched subcell nfet_03v3_CEG9X9 in circuit bpsw_bank (0)(24 instances)
+Flattening unmatched subcell dac_sw_2to1_tg_x in circuit bpsw_bank (0)(10 instances)
+Flattening unmatched subcell pfet_03v3_XEZNMC in circuit bpsw_bank (0)(20 instances)
+Flattening unmatched subcell nfet_03v3_KP96ZV in circuit bpsw_bank (0)(10 instances)
+Flattening unmatched subcell pfet_03v3_ZE833C in circuit bpsw_bank (0)(10 instances)
+Flattening unmatched subcell nfet_03v3_CEG9X9 in circuit bpsw_bank (0)(20 instances)
+Flattening unmatched subcell dac_sw_2to1_tg_x0 in circuit bpsw_bank (0)(2 instances)
+Flattening unmatched subcell pfet_03v3_XEZNMC in circuit bpsw_bank (0)(4 instances)
+Flattening unmatched subcell nfet_03v3_KP96ZV in circuit bpsw_bank (0)(2 instances)
+Flattening unmatched subcell pfet_03v3_ZE833C in circuit bpsw_bank (0)(2 instances)
+Flattening unmatched subcell nfet_03v3_CEG9X9 in circuit bpsw_bank (0)(4 instances)
+Flattening unmatched subcell dac_sw_2to1_tg in circuit bpsw_bank (1)(24 instances)
+Flattening unmatched subcell tg in circuit bpsw_bank (1)(48 instances)
+Flattening unmatched subcell inverter in circuit bpsw_bank (1)(24 instances)
+
+Class bpsw_bank (0):  Merged 528 parallel devices.
+Subcircuit summary:
+Circuit 1: bpsw_bank                       |Circuit 2: bpsw_bank                       
+-------------------------------------------|-------------------------------------------
+pfet_03v3 (432->72)                        |pfet_03v3 (408->72)                        
+nfet_03v3 (240->72)                        |nfet_03v3 (216->72)                        
+Number of devices: 144                     |Number of devices: 144                     
+Number of nets: 76                         |Number of nets: 76                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: bpsw_bank                       |Circuit 2: bpsw_bank                       
+-------------------------------------------|-------------------------------------------
+vcm                                        |vcm                                        
+vref                                       |vref                                       
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+dbp0                                       |dbp0                                       
+dbp1                                       |dbp1                                       
+dbp2                                       |dbp2                                       
+dbp3                                       |dbp3                                       
+dbp4                                       |dbp4                                       
+dbp5                                       |dbp5                                       
+dbp6                                       |dbp6                                       
+dbp7                                       |dbp7                                       
+dbp8                                       |dbp8                                       
+dbp9                                       |dbp9                                       
+dbp10                                      |dbp10                                      
+dbp11                                      |dbp11                                      
+dbn0                                       |dbn0                                       
+dbn1                                       |dbn1                                       
+dbn2                                       |dbn2                                       
+dbn3                                       |dbn3                                       
+dbn4                                       |dbn4                                       
+dbn5                                       |dbn5                                       
+dbn6                                       |dbn6                                       
+dbn7                                       |dbn7                                       
+dbn8                                       |dbn8                                       
+dbn9                                       |dbn9                                       
+dbn10                                      |dbn10                                      
+dbn11                                      |dbn11                                      
+bp0                                        |bp0                                        
+bp1                                        |bp1                                        
+bp2                                        |bp2                                        
+bp3                                        |bp3                                        
+bp4                                        |bp4                                        
+bp5                                        |bp5                                        
+bp6                                        |bp6                                        
+bp7                                        |bp7                                        
+bp8                                        |bp8                                        
+bp9                                        |bp9                                        
+bp10                                       |bp10                                       
+bp11                                       |bp11                                       
+bn0                                        |bn0                                        
+bn1                                        |bn1                                        
+bn2                                        |bn2                                        
+bn3                                        |bn3                                        
+bn4                                        |bn4                                        
+bn5                                        |bn5                                        
+bn6                                        |bn6                                        
+bn7                                        |bn7                                        
+bn8                                        |bn8                                        
+bn9                                        |bn9                                        
+bn10                                       |bn10                                       
+bn11                                       |bn11                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes bpsw_bank and bpsw_bank are equivalent.
+
+Final result: Circuits match uniquely.
+.

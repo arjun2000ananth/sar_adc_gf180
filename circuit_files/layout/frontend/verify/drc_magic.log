@@ -1,0 +1,73 @@
+
+Magic 8.3 revision 684 - Compiled on Sun Sep 20 02:41:10 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Loading "../verify/drc_magic.tcl" from command line.
+Cell fe_sw read from current working directory
+"fe_sw" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell pfet_03v3_GRPKVP read from current working directory
+Cell nfet_03v3_PSNR9F read from current working directory
+Timestamp mismatches found in these cells: nfet_03v3_PSNR9F, pfet_03v3_GRPKVP.
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+DRC_TOTAL fe_sw 0
+No errors found.
+Cell fe_rsw read from current working directory
+"fe_rsw" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell pfet_03v3_3SLJFC read from current working directory
+Cell nfet_03v3_4JYFU7 read from current working directory
+Timestamp mismatches found in these cells: nfet_03v3_4JYFU7, pfet_03v3_3SLJFC.
+DRC style is now "drc(full)"
+DRC_TOTAL fe_rsw 0
+No errors found.
+Cell fe_logic read from current working directory
+"fe_logic" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell pfet_03v3_ZE833C read from current working directory
+Cell pfet_03v3_AWP2WN read from current working directory
+Cell pfet_03v3_LLA5YU read from current working directory
+Cell nfet_03v3_KP96ZV read from current working directory
+Cell nfet_03v3_GGV944 read from current working directory
+Cell nfet_03v3_HMD882 read from current working directory
+Cell nfet_03v3_EKZEGB read from current working directory
+Timestamp mismatches found in these cells: nfet_03v3_EKZEGB, nfet_03v3_HMD882, nfet_03v3_GGV944, nfet_03v3_PSNR9F, nfet_03v3_KP96ZV, pfet_03v3_LLA5YU, pfet_03v3_AWP2WN, pfet_03v3_GRPKVP, pfet_03v3_ZE833C.
+DRC style is now "drc(full)"
+DRC_TOTAL fe_logic 0
+No errors found.
+Cell fe_decap read from current working directory
+"fe_decap" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Timestamp mismatches found in these cells: nfet_03v3_EKZEGB.
+DRC style is now "drc(full)"
+DRC_TOTAL fe_decap 0
+No errors found.
+Cell fe_dload read from current working directory
+"fe_dload" has a zero timestamp; it should be written out
+    to establish a correct timestamp.
+Processing timestamp mismatches.
+Cell pfet_03v3_2888UM read from current working directory
+Cell nfet_03v3_A96D3S read from current working directory
+Timestamp mismatches found in these cells: nfet_03v3_A96D3S, pfet_03v3_2888UM.
+DRC style is now "drc(full)"
+DRC_TOTAL fe_dload 0
+No errors found.

@@ -1,0 +1,263 @@
+* cdac weights
+.include /home/arjun/eda/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /home/arjun/eda/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.lib /home/arjun/eda/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice cap_mim
+.lib /home/arjun/eda/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice mimcap_typical
+.include /home/arjun/eda/projects/sar_adc_gf180/src/sar_split_cal_r4/layout/cdac_v2/ext/cdac_r4_typ_merged.spice
+X1 vcn vfn bn0 bn1 bn2 bn3 bn4 bn5 bn6 bn7 bn8 bn9 bn10 bn11 bnd vcp vfp bp0 bp1 bp2 bp3 bp4 bp5 bp6 bp7 bp8 bp9 bp10 bp11 bpd vss cdac_r4_x
+Vss vss 0 0
+Rc vcn 0 1e12
+Rf vfn 0 1e12
+Rco vcp 0 1e12
+Rfo vfp 0 1e12
+Vb0p bp0 0 0
+Vb0n bn0 0 dc 0 ac 1
+Vb1p bp1 0 0
+Vb1n bn1 0 dc 0 ac 0
+Vb2p bp2 0 0
+Vb2n bn2 0 dc 0 ac 0
+Vb3p bp3 0 0
+Vb3n bn3 0 dc 0 ac 0
+Vb4p bp4 0 0
+Vb4n bn4 0 dc 0 ac 0
+Vb5p bp5 0 0
+Vb5n bn5 0 dc 0 ac 0
+Vb6p bp6 0 0
+Vb6n bn6 0 dc 0 ac 0
+Vb7p bp7 0 0
+Vb7n bn7 0 dc 0 ac 0
+Vb8p bp8 0 0
+Vb8n bn8 0 dc 0 ac 0
+Vb9p bp9 0 0
+Vb9n bn9 0 dc 0 ac 0
+Vb10p bp10 0 0
+Vb10n bn10 0 dc 0 ac 0
+Vb11p bp11 0 0
+Vb11n bn11 0 dc 0 ac 0
+Vbdp bpd 0 0
+Vbdn bnd 0 dc 0 ac 0
+.control
+alter Vb0n acmag = 1
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b0 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 1
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b1 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 1
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b2 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 1
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b3 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 1
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b4 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 1
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b5 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 1
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b6 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 1
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b7 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 1
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b8 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 1
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b9 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 1
+alter Vb11n acmag = 0
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b10 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 1
+alter Vbdn acmag = 0
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES b11 $&hc $&hf
+alter Vb0n acmag = 0
+alter Vb1n acmag = 0
+alter Vb2n acmag = 0
+alter Vb3n acmag = 0
+alter Vb4n acmag = 0
+alter Vb5n acmag = 0
+alter Vb6n acmag = 0
+alter Vb7n acmag = 0
+alter Vb8n acmag = 0
+alter Vb9n acmag = 0
+alter Vb10n acmag = 0
+alter Vb11n acmag = 0
+alter Vbdn acmag = 1
+ac lin 1 1e6 1e6
+let hc = real(v(vcn))
+let hf = real(v(vfn))
+echo RES bd $&hc $&hf
+quit
+.endc
+.end

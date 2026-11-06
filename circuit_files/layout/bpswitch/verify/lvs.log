@@ -1,0 +1,104 @@
+Netgen 1.5.316 compiled on Tue Feb 10 11:09:08 UTC 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file ext/bpsw_bank_lvs.spice for ext/bpsw_bank_lvs.spice bpsw_bank
+Call to undefined subcircuit pfet_03v3
+Creating placeholder cell definition.
+Call to undefined subcircuit nfet_03v3
+Creating placeholder cell definition.
+Reading netlist file ref/bpsw_bank_ref.spice for ref/bpsw_bank_ref.spice bpsw_bank
+Call to undefined subcircuit tg
+Creating placeholder cell definition.
+Call to undefined subcircuit inverter
+Creating placeholder cell definition.
+Call to undefined subcircuit pfet_03v3
+Creating placeholder cell definition.
+Call to undefined subcircuit nfet_03v3
+Creating placeholder cell definition.
+
+Reading setup file /home/arjun/eda/pdks/gf180mcuD/libs.tech/netgen/gf180mcuD_setup.tcl
+
+Model nfet_03v3 pin 1 == 3
+No property par1 found for device nfet_03v3
+No property NRD found for device nfet_03v3
+No property NRS found for device nfet_03v3
+No property par found for device nfet_03v3
+No property sa found for device nfet_03v3
+No property sb found for device nfet_03v3
+No property sd found for device nfet_03v3
+No property par found for device nfet_03v3
+No property dtemp found for device nfet_03v3
+No property nf found for device nfet_03v3
+No property $D found for device nfet_03v3
+No property $X found for device nfet_03v3
+No property $Y found for device nfet_03v3
+Model nfet_03v3 pin 1 == 3
+No property par1 found for device nfet_03v3
+No property par found for device nfet_03v3
+No property par found for device nfet_03v3
+No property dtemp found for device nfet_03v3
+No property $D found for device nfet_03v3
+No property $X found for device nfet_03v3
+No property $Y found for device nfet_03v3
+Model pfet_03v3 pin 1 == 3
+No property par1 found for device pfet_03v3
+No property NRD found for device pfet_03v3
+No property NRS found for device pfet_03v3
+No property par found for device pfet_03v3
+No property sa found for device pfet_03v3
+No property sb found for device pfet_03v3
+No property sd found for device pfet_03v3
+No property par found for device pfet_03v3
+No property dtemp found for device pfet_03v3
+No property nf found for device pfet_03v3
+No property $D found for device pfet_03v3
+No property $X found for device pfet_03v3
+No property $Y found for device pfet_03v3
+Model pfet_03v3 pin 1 == 3
+No property par1 found for device pfet_03v3
+No property par found for device pfet_03v3
+No property par found for device pfet_03v3
+No property dtemp found for device pfet_03v3
+No property $D found for device pfet_03v3
+No property $X found for device pfet_03v3
+No property $Y found for device pfet_03v3
+Comparison output logged to file verify/lvs.out
+Logging to file "verify/lvs.out" enabled
+Circuit pfet_03v3 contains no devices.
+Circuit nfet_03v3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'bpsw_bank'
+Circuit bpsw_bank contains 672 device instances.
+  Class: nfet_03v3             instances: 240
+  Class: pfet_03v3             instances: 432
+Circuit contains 76 nets.
+Contents of circuit 2:  Circuit: 'bpsw_bank'
+Circuit bpsw_bank contains 144 device instances.
+  Class: nfet_03v3             instances:  72
+  Class: pfet_03v3             instances:  72
+Circuit contains 76 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'bpsw_bank'
+Circuit bpsw_bank contains 144 device instances.
+  Class: nfet_03v3             instances:  72
+  Class: pfet_03v3             instances:  72
+Circuit contains 76 nets.
+Contents of circuit 2:  Circuit: 'bpsw_bank'
+Circuit bpsw_bank contains 144 device instances.
+  Class: nfet_03v3             instances:  72
+  Class: pfet_03v3             instances:  72
+Circuit contains 76 nets.
+
+Circuit 1 contains 144 devices, Circuit 2 contains 144 devices.
+Circuit 1 contains 76 nets,    Circuit 2 contains 76 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "verify/lvs.out" disabled
+LVS Done.

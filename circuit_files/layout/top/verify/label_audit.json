@@ -1,0 +1,17 @@
+{
+ "n_top_texts": 64,
+ "missing": [],
+ "extra": [],
+ "not_on_boundary": [],
+ "not_on_metal": [],
+ "label_shorts": {},
+ "names_on_several_metal_nets": {
+  "vss": 2
+ },
+ "unexpected_multi": {},
+ "global_statements": {
+  "ref": 0,
+  "ext": 0
+ },
+ "result": "PASS"
+}

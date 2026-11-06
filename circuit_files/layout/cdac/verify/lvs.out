@@ -1,0 +1,74 @@
+
+Circuit 1 cell cap_mim_2f0_m4m5_noshield and Circuit 2 cell cap_mim_2f0fF are black boxes.
+Warning: Equate pins:  cell cap_mim_2f0_m4m5_noshield is a placeholder, treated as a black box.
+Warning: Equate pins:  cell cap_mim_2f0fF is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: cap_mim_2f0_m4m5_noshield       |Circuit 2: cap_mim_2f0fF                   
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cap_mim_2f0_m4m5_noshield and cap_mim_2f0fF are equivalent.
+Flattening unmatched subcell cdac_r4_half in circuit cdac_r4 (0)(2 instances)
+Flattening unmatched subcell cdac_r4_unit_g in circuit cdac_r4 (0)(20 instances)
+Flattening unmatched subcell cdac_r4_unit_dc in circuit cdac_r4 (0)(102 instances)
+Flattening unmatched subcell cdac_r4_unit_br in circuit cdac_r4 (0)(4 instances)
+Flattening unmatched subcell cdac_r4_unit_dr in circuit cdac_r4 (0)(26 instances)
+Flattening unmatched subcell cdac_r4_unit_dcv in circuit cdac_r4 (0)(6 instances)
+Flattening unmatched subcell cdac_r4_unit in circuit cdac_r4 (0)(306 instances)
+Flattening unmatched subcell cdac_r4_unit_x in circuit cdac_r4 (0)(4 instances)
+
+Class cdac_r4 (0):  Merged 439 parallel devices.
+Subcircuit summary:
+Circuit 1: cdac_r4                         |Circuit 2: cdac_r4                         
+-------------------------------------------|-------------------------------------------
+cap_mim_2f0_m4m5_noshield (468->29)        |cap_mim_2f0fF (468->29)                    
+Number of devices: 29                      |Number of devices: 29                      
+Number of nets: 31                         |Number of nets: 31                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: cdac_r4                         |Circuit 2: cdac_r4                         
+-------------------------------------------|-------------------------------------------
+vcp                                        |vcp                                        
+vcn                                        |vcn                                        
+vfp                                        |vfp                                        
+vfn                                        |vfn                                        
+vss                                        |vss                                        
+bp0                                        |bp0                                        
+bn0                                        |bn0                                        
+bp1                                        |bp1                                        
+bn1                                        |bn1                                        
+bp2                                        |bp2                                        
+bn2                                        |bn2                                        
+bp3                                        |bp3                                        
+bn3                                        |bn3                                        
+bp4                                        |bp4                                        
+bn4                                        |bn4                                        
+bp5                                        |bp5                                        
+bn5                                        |bn5                                        
+bp6                                        |bp6                                        
+bn6                                        |bn6                                        
+bp7                                        |bp7                                        
+bn7                                        |bn7                                        
+bp8                                        |bp8                                        
+bn8                                        |bn8                                        
+bp9                                        |bp9                                        
+bn9                                        |bn9                                        
+bp10                                       |bp10                                       
+bn10                                       |bn10                                       
+bp11                                       |bp11                                       
+bpd                                        |bpd                                        
+bn11                                       |bn11                                       
+bnd                                        |bnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cdac_r4 and cdac_r4 are equivalent.
+
+Final result: Circuits match uniquely.
+.

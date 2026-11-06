@@ -1,0 +1,431 @@
+{
+ "multi_port_single_net": {
+  "vdda": true,
+  "vrefp": true,
+  "vcm": true,
+  "vddd": true,
+  "vss_analog": true,
+  "vss_digital": true
+ },
+ "points": [
+  {
+   "block": "cdac",
+   "text": "vss",
+   "layer": "M1",
+   "x": 18.8,
+   "y": 153.0,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "cdac",
+   "text": "vss",
+   "layer": "M5",
+   "x": 304.2,
+   "y": 152.0,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "cdac",
+   "text": "vss",
+   "layer": "M5",
+   "x": 162.0,
+   "y": 152.0,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "cdac",
+   "text": "vss",
+   "layer": "M5",
+   "x": 19.8,
+   "y": 152.0,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 284.75,
+   "y": 129.17,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 39.25,
+   "y": 129.17,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 284.75,
+   "y": 74.78,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 39.25,
+   "y": 74.78,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vss",
+   "layer": "M2",
+   "x": 284.75,
+   "y": 95.11,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vss",
+   "layer": "M2",
+   "x": 39.25,
+   "y": 95.11,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vss",
+   "layer": "M2",
+   "x": 284.75,
+   "y": 40.72,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vss",
+   "layer": "M2",
+   "x": 39.25,
+   "y": 40.72,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vref",
+   "layer": "M4",
+   "x": 284.75,
+   "y": 126.27,
+   "net": "vrefp",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vref",
+   "layer": "M4",
+   "x": 39.25,
+   "y": 126.27,
+   "net": "vrefp",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vref",
+   "layer": "M4",
+   "x": 284.75,
+   "y": 71.88,
+   "net": "vrefp",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vref",
+   "layer": "M4",
+   "x": 39.25,
+   "y": 71.88,
+   "net": "vrefp",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vcm",
+   "layer": "M4",
+   "x": 284.75,
+   "y": 98.01,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vcm",
+   "layer": "M4",
+   "x": 39.25,
+   "y": 98.01,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vcm",
+   "layer": "M4",
+   "x": 284.75,
+   "y": 43.62,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "bank",
+   "text": "vcm",
+   "layer": "M4",
+   "x": 39.25,
+   "y": 43.62,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "comparator",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 139.0,
+   "y": 352.39,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "comparator",
+   "text": "vss",
+   "layer": "M2",
+   "x": 139.0,
+   "y": 314.96,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "sw_p",
+   "text": "vss",
+   "layer": "M2",
+   "x": 129.0,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "sw_p",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 129.0,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "sw_n",
+   "text": "vss",
+   "layer": "M2",
+   "x": 195.0,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "sw_n",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 195.0,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "rsw_p",
+   "text": "vss",
+   "layer": "M2",
+   "x": 30.35,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "rsw_p",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 30.35,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "rsw_n",
+   "text": "vss",
+   "layer": "M2",
+   "x": 293.65,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "rsw_n",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 293.65,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "logic",
+   "text": "vss",
+   "layer": "M2",
+   "x": 141.64,
+   "y": 356.79,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "logic",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 141.64,
+   "y": 386.855,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_p0",
+   "text": "vss",
+   "layer": "M2",
+   "x": 89.4,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "dc_p0",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 89.4,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_p0",
+   "text": "cnet",
+   "layer": "M3",
+   "x": 107.2,
+   "y": 339.23,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_p1",
+   "text": "vss",
+   "layer": "M2",
+   "x": 49.8,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "dc_p1",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 49.8,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_p1",
+   "text": "cnet",
+   "layer": "M3",
+   "x": 67.6,
+   "y": 339.23,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "dc_n0",
+   "text": "vss",
+   "layer": "M2",
+   "x": 234.6,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "dc_n0",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 234.6,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_n0",
+   "text": "cnet",
+   "layer": "M3",
+   "x": 216.8,
+   "y": 339.23,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_n1",
+   "text": "vss",
+   "layer": "M2",
+   "x": 274.2,
+   "y": 315.76,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "dc_n1",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 274.2,
+   "y": 338.13,
+   "net": "vdda",
+   "ok": true
+  },
+  {
+   "block": "dc_n1",
+   "text": "cnet",
+   "layer": "M3",
+   "x": 256.4,
+   "y": 339.23,
+   "net": "vcm",
+   "ok": true
+  },
+  {
+   "block": "dload",
+   "text": "vss",
+   "layer": "M2",
+   "x": 109.005,
+   "y": 356.79,
+   "net": "vss_analog",
+   "ok": true
+  },
+  {
+   "block": "dload",
+   "text": "vdd",
+   "layer": "M2",
+   "x": 109.005,
+   "y": 386.855,
+   "net": "vdda",
+   "ok": true
+  }
+ ],
+ "nets_distinct": true,
+ "all_points_on_pin_net": true,
+ "n_points": 46,
+ "result": "PASS",
+ "failed": []
+}
